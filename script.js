@@ -12,7 +12,7 @@ function clickMe() {
 
   if (localStorage.click){
     if (Number(localStorage.click) > 99){return}
-    localStorage.click = ((Number(localStorage.click)*10) + (0.1 * 10))/10;
+    localStorage.click = ((Number(localStorage.click)*10) + (1 * 10))/10;
   } else {
     localStorage.click = 1;
   }
