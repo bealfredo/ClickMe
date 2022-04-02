@@ -26,7 +26,7 @@ function clickMe() {
 
 function win(){
   document.getElementById("reward").style.display = "flex";
-  document.getElementById("code").innerHTML = `&#${(((562 - 6) + 4) /8)};&#${(((554 - 6) + 4) /8)};&#${(((626 - 6) + 4) /8)};&#${(((402 - 6) + 4) /8)};&#${(((706 - 6) + 4) /8)};&#${(((442 - 6) + 4) /8)};`
+  document.getElementById("code").innerHTML = "FEN2X4"
 }
 
 function reset() {
@@ -44,11 +44,3 @@ function reset() {
 
   }
 }
-
-
-// const cod = [70,69,78,50,88,55]
-
-// for (let i = 0; i < cod.length; i++) {
-//   cod[i] = (((cod[i] * 8) - 4) + 6)
-// }
-// console.log(cod)
